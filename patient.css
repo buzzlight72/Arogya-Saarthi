@@ -1,0 +1,103 @@
+
+#register-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  #register-form:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #register-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #register-form p {
+    font-size: 16px;
+  }
+  
+  #register-form form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  #register-form input,
+  #register-form textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  #register-form input:focus,
+  #register-form textarea:focus {
+    border-color: #00aaff;
+  }
+  
+  #register-form button {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  #register-form button:hover {
+    background-color: #003366;
+    transform: scale(1.05);
+  }
+  
+ 
+  #appointment-schedule,
+  #report-submit {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  #appointment-schedule:hover,
+  #report-submit:hover {
+    background-color: #003366;
+  }
+  
+  #appointment-schedule h2,
+  #report-submit h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #appointment-schedule p,
+  #report-submit p {
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #001a33;
+    transform: scale(1.05);
+  }
+  
+  

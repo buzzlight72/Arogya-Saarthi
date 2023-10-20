@@ -1,0 +1,90 @@
+
+#ngo-register {
+    background-color: #f5f5f5;
+        padding: 20px;
+    border-radius: 10px;
+      margin: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+    #ngo-register:hover {
+    background-color: #e0e0e0;
+}
+
+   #ngo-register h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ngo-register p {
+    font-size: 16px;
+}
+
+#ngo-register form {
+    display: flex;
+        flex-wrap: wrap;
+    gap: 10px;
+}
+
+#ngo-register input,
+#ngo-register textarea {
+    flex: 1;
+       padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+       transition: border-color 0.3s ease;
+}
+
+#ngo-register input:focus,
+#ngo-register textarea:focus {
+        border-color: #00aaff;
+}
+
+#ngo-register button {
+    background-color: #00aaff;
+    color: #fff;
+      padding: 10px 20px;
+      border: none;
+    border-radius: 5px;
+      cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#ngo-register button:hover {
+    background-color: #003366;
+       transform: scale(1.05);
+}
+
+#ngo-lists {
+    background-color: #00aaff;
+      color: #fff;
+          padding: 20px;
+    border-radius: 10px;
+      margin: 20px 0;
+    text-align: center;
+      transition: background-color 0.3s ease;
+}
+
+#ngo-lists:hover {
+    background-color: #003366;
+}
+
+#ngo-lists h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ngo-lists p {
+    font-size: 16px;
+}
+
+#ngo-lists ul {
+    list-style: none;
+      padding: 0;
+}
+
+#ngo-lists li {
+    font-size: 16px;
+       margin-bottom: 5px;
+}
+
